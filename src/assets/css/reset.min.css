@@ -1,0 +1,143 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0
+}
+*{
+    font-family:'微软雅黑', "SimSun", "宋体"
+}
+html,body{
+    overflow-x: hidden;
+}
+fieldset, img {
+    border: 0
+}
+
+img {
+    display: block
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal
+}
+
+ul, ol {
+    list-style: none
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family:'微软雅黑', "SimSun", "宋体"
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+select, input {
+    vertical-align: middle
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0
+}
+
+input[type="text"], input[type="password"], textarea {
+    outline-style: none;
+    -webkit-appearance: none
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse
+}
+
+* {
+    font-weight: 500;
+}
+.en{
+    font-size: 28px;
+}
+.c_h2{
+    font-size: 35px;
+}
+
+/*公共样式集合 start*/
+.align_left {text-align:left;}
+.align_center {text-align:right;}
+.align_right {text-align:right;}
+.mtop5 {margin-top:5px;}
+.mtop10 {margin-top:10px;}
+.mtop15 {margin-top:15px;}
+.mtop20 {margin-top:20px;}
+.mtop30 {margin-top:30px;}
+.mtop35 {margin-top:35px;}
+.mtop40 {margin-top:40px;}
+.mtop45 {margin-top:45px;}
+.mtop50 {margin-top:50px;}
+.mleft2 {margin-left:2px;}
+.mleft3 {margin-left:3px;}
+.mleft5 {margin-left:5px;}
+.mleft10 {margin-left:10px;}
+.mleft15 {margin-left:15px;}
+.mleft20 {margin-left:20px;}
+.mright5 {margin-right:5px;}
+.mright10 {margin-right:10px;}
+.mright15 {margin-right:15px;}
+.mright20 {margin-right:20px;}
+.mright25 {margin-right:25px;}
+.mright30 {margin-right:30px;}
+.mright60 {margin-right:60px;}
+.mbottom2 {margin-bottom:2px;}
+.mbottom3 {margin-bottom:3px;}
+.mbottom4 {margin-bottom:4px;}
+.mbottom5 {margin-bottom:5px;}
+.mbottom10 {margin-bottom:10px;}
+.mbottom15 {margin-bottom:15px;}
+.mbottom20 {margin-bottom:20px;}
+.mbottom30 {margin-bottom:30px;}
+.mbottom35 {margin-bottom:35px;}
+.mbottom40 {margin-bottom:40px;}
+.mbottom50 {margin-bottom:50px;}
+.mbottom130 {margin-bottom:130px;}
+.ptop30 {padding-top:30px;}
+.ptop50 {padding-top:50px;}
+.pbottom15 {padding-bottom:15px;}
+.pbottom20 {padding-bottom:20px;}
+.pbottom30 {padding-bottom:30px;}
+.pbottom40 {padding-bottom:40px;}
+.pbottom50 {padding-bottom:50px;}
+.fleft {float:left;}
+.fright {float:right;}
+.pos_abs {position:absolute;}
+.pos_rel {position:relative;}
+/*公共样式集合 end*/
+
+/* 媒体查询（手机） */
+@media (min-width : 375px) and (max-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+    .en{
+        font-size: 2rem;
+    }
+    .c_h2{
+        font-size: 2rem;
+    }
+}
+@media (min-width : 414px) and (max-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+    .en{
+        font-size: 2rem;
+    }
+    .c_h2{
+        font-size: 2rem;
+    }
+}
